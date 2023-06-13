@@ -7,7 +7,6 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import accuracy_score
 from sklearn_extra.cluster import KMedoids
 from sklearn.metrics import silhouette_score
-from pyclustering.cluster import cluster_visualizer
 
 st.write("""<h2>Pengelompokkan Penduduk Usia Lanjut Berdasarkan Kecamatan di Kota Surabaya Menggunakan K-Medoids Clustering</h2>""",unsafe_allow_html=True)
 
